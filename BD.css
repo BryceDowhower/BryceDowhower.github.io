@@ -1,4 +1,51 @@
 body {
-    background-color: darkblue;
-    color:pink;
+    background-image: url("https://farm1.static.flickr.com/458/19419943380_43ecaaf882_b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+}
+
+#NameBox {
+    margin-left: auto;
+    margin-right: auto;
+    color: crimson;
+    background-color: whitesmoke;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+#InfoBox {
+    margin-left: auto;
+    margin-right: auto;
+    color: crimson;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 40%;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#MyPic {
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+#PicText {
+    background-color: whitesmoke;
+    height: 325px;
+    display: inline-block;
+}
+
+p {
+    text-align: left;
+    left: 20px;
+    top: 15px;
+    position: relative;
+}
+
+#LinksList {
+    list-style-type: square;
 }
