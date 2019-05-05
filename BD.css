@@ -1,6 +1,6 @@
 body {
     background-image: url("https://farm1.static.flickr.com/458/19419943380_43ecaaf882_b.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center;
     background-size: cover;
     min-height: 500px;
@@ -39,7 +39,7 @@ body {
     display: inline-block;
 }
 
-p {
+#pindex {
     text-align: left;
     left: 20px;
     top: 15px;
@@ -48,4 +48,47 @@ p {
 
 #LinksList {
     list-style-type: square;
+}
+
+.collapsible {
+    background-color: whitesmoke;
+    color: crimson;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+    .active, .collapsible:hover {
+        background-color: lightgray;
+    }
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: crimson;
+    color: whitesmoke;
+    width: 90%;
+}
+
+#MainBox {
+    margin-left: auto;
+    margin-right: auto;
+    color: crimson;
+    background-color: whitesmoke;
+    width: 25%;
+    height: 40%;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.info {
+    position: relative;
+}
+
+#list {
+    list-style-type: circle;
 }
