@@ -71,7 +71,7 @@ body {
     overflow: hidden;
     background-color: crimson;
     color: whitesmoke;
-    width: 90%;
+    width: auto;
 }
 
 #MainBox {
@@ -80,7 +80,7 @@ body {
     color: crimson;
     background-color: whitesmoke;
     width: 25%;
-    height: 40%;
+    height: auto;
     position: relative;
     background-color: whitesmoke;
 }
@@ -91,4 +91,37 @@ body {
 
 #list {
     list-style-type: circle;
+}
+
+.skillicon {
+    float: left;
+    width: 100px;
+    height: 75px;
+}
+
+#Skillbox {
+    margin-top: 15px;
+    margin-left: 75px;
+    margin-bottom: 200px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: crimson;
+    background-color: whitesmoke;
+    width: 25%;
+    height: 100px;
+    background-color: whitesmoke;
+    display: inline-block;
+    float: left;
+}
+
+#skilltext {
+    text-align: left;
+    margin-left: 120px;
+    font-size: 16px;
+}
+
+#skilltext2 {
+    font-size: 12px;
 }
