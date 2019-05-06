@@ -18,6 +18,7 @@ body {
 }
 
 #InfoBox {
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     color: crimson;
@@ -82,7 +83,6 @@ body {
     width: 25%;
     height: auto;
     position: relative;
-    background-color: whitesmoke;
 }
 
 .info {
@@ -124,4 +124,39 @@ body {
 
 #skilltext2 {
     font-size: 12px;
+}
+
+#ProjectBox {
+    margin-left: auto;
+    margin-right: auto;
+    color: crimson;
+    background-color: whitesmoke;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.projectpic {
+    width: 100%;
+    height: auto;
+}
+
+#homelink {
+    font-size: 16px;
+    color: crimson;
+    background-color: whitesmoke;
+    display: normal;
+    position: sticky;
+    float: none;
+    border: 3px solid black;
+    position: sticky;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: initial;
+    margin-right: initial;
+    margin-top: initial;
+    margin-left: initial;
+    padding-top: 10px;
+    padding-left: 10px;
 }

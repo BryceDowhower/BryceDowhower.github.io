@@ -1,0 +1,64 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="BryceDowhower.github.io/BD.css" />
+    <title>Bryce D Projects</title>
+
+</head>
+<body>
+    <div id="NameBox">
+
+        <h1>
+            <font size="300">
+                <u id="Name">Bryce Dowhower</u>
+                My Projects:
+            </font>
+        </h1>
+    </div>
+    <div id="ProjectBox">
+
+        <div class="info">
+            <button class="collapsible">Programming Project: Pong</button>
+            <div class="content">
+
+                <p>In my Spring 2019 programming course, we were given the flexibility to choose our own project to do. I decided I wanted to create my version of the game Pong.</p>
+                <p>My game has the option of single-player or two-player if you want to play with a friend. The sinlge player option pits you against a simple computer opponent that identifies where the ball is at and then moves a variable amount to try and intercept it.</p>
+                <p>In addition to this, there are also several different themes users can chose from, each with their own style. I enjoyed doing this as it allowed me to express my creativity.</p>
+                <p>Feel free to check out this project and others by viewing my Github repository <a href="https://github.com/brycedowhower">here</a>.</p>
+                <img src="images/PongPic1.PNG" class="projectpic">
+                <img src="images/PongPic2.PNG" class="projectpic">
+                <img src="images/PongPic3.PNG" class="projectpic">
+            </div>
+        </div>
+        <div class="info">
+            <button class="collapsible">Database Creation Project</button>
+            <div class="content">
+                <p>In my database course, throughout the course of the semester, myself and two groupmates worked to design a datavase from beginning to finish.</p>
+                <p>We began with the conceptual design portion of our database. This involved designing an Entity Relationship Diagram as well as defining any assumptions we made.</p>
+                <p>Next we moved onto logical design. In this portion of our project we worked to normalize our tables to reduce redundancy, eliminate data duplication, and ensure well-structured relations by making columns atomic. For our project, we used the third normal form of normalization. During this stage, we also ensured referential integrity, defining relationships between our associations. </p>
+                <p>The final step of our project was physical design and implementation. Here is were we created a data dictionary and wrote out our create statements to create our tables and relationships between the tables. We also inserted in random data we generated through a website. After creating our database and entering data, we would enter some SQL select statements to ensure our database was working properly. </p>
+                <p>This project was beneficial as we got first hand experience in all of the innerworkings of a database, and how tricky it can be if careful consideration is not taken for each relationship.</p>
+                <img src="images/DatabaseERD.png" class="projectpic">
+                <img src="images/DatabaseProject1.png" class="projectpic">
+                <img src="images/DatabaseProject2.png" class="projectpic">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Source for collapsable tabs: https://www.w3schools.com/howto/howto_js_collapsible.asp -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
