@@ -18,20 +18,18 @@ body {
 }
 
 #InfoBox {
-    margin-top: 50px;
+    margin-top:auto;
     margin-left: auto;
     margin-right: auto;
     color: crimson;
     background-color: whitesmoke;
     width: 50%;
-    height: 50%;
+    height: auto;
     position: relative;
     background-color: whitesmoke;
 }
 
-#MyPic {
-    background-color: whitesmoke;
-    display: inline-block;
+
 }
 
 #PicText {
