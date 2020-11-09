@@ -18,9 +18,10 @@ body {
 }
 
 #InfoBox {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 25px auto;
+    margin-left: 25px auto;
+    margin-right: 25px auto;
+    margin-bottom: 25px auto;
     color: crimson;
     background-color: whitesmoke;
     width: 50%;
