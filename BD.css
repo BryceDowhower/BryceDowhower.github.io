@@ -53,6 +53,7 @@ body {
 
 #LinksList {
     list-style-type: square;
+    margin-left: auto;
 }
 
 .collapsible {
