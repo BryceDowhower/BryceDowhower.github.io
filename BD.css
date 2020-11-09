@@ -18,30 +18,20 @@ body {
 }
 
 #InfoBox {
-    margin-top:auto;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     color: crimson;
     background-color: whitesmoke;
     width: 50%;
-    height: auto;
+    height: 40%;
     position: relative;
     background-color: whitesmoke;
 }
 
-#ProjectBox {
-    margin-left: auto;
-    margin-right: auto;
-    color: crimson;
+#MyPic {
     background-color: whitesmoke;
-    width: 50%;
-    height: auto;
-    position: relative;
-}
-
-
-
-
+    display: inline-block;
 }
 
 #PicText {
@@ -52,8 +42,8 @@ body {
 
 #pindex {
     text-align: left;
-    left: auto;
-    top: auto;
+    left: 20px;
+    top: 15px;
     position: relative;
 }
 
